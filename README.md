@@ -217,11 +217,7 @@ Each query recovers independently on failure — no shared state, no cross-query
 ```
 RT-Project/
 ├── README.md
-├── notebooks/
-│   ├── dev/
-│   ├── test/
-│   └── prd/
-├── src/
+├── scripts/
 │   ├── bronze_to_silver.py
 │   ├── silver_to_gold.py
 │   └── rt_project_streaming_prd.py
